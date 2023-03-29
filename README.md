@@ -1,5 +1,8 @@
 # MNTN
-Верстка по макету с figma
+Верстка по макету с figma [MNTN](https://www.figma.com/file/RObpoLwOvIcY3WSC3A691n/MNTN---Landing-Page-(Community) "ссылка на макет")!
 
-ссылка на макет:
-https://www.figma.com/file/RObpoLwOvIcY3WSC3A691n/MNTN---Landing-Page-(Community)?node-id=0-1&t=AJV4UfpLdfV1b5Sk-0
+##Текущие задачи:
+*сделать, так, чтобы footer не уезжал в зависимости от размеров экрана
+*добавить сайту адаптивность
+*анимировать переход от основной страницы и контенту (эффект параллакс)
+*подумать над семантикой
