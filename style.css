@@ -1,23 +1,26 @@
-html {
-    height: 100%;
- }
+* {
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
 body {
-    min-height: 100%;
-    margin: 0;
-    padding: 0;   
+    min-height: 100%;  
     background-color:#0B1D26;
     color: #fff;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.previewImage {
+.intro {
     position: absolute;
-    background-image: url(P:/layout/MNTN/images/background.png);
+    background: url(P:/layout/MNTN/images/background.png), center, no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
     z-index: -1;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -26,11 +29,14 @@ a {
 }
 
 header {
-   display: flex; 
-   justify-content: space-between;
-   padding-left: 80px;
-   padding-right: 80px;
-   padding-top: 64px;
+    display: flex; 
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 3em 4em 0em;
 }
 
 .elemHeader, nav {
