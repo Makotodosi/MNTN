@@ -26,7 +26,7 @@ a {
 
 /*intro*/
 .intro {
-    background: url(P:/layout/MNTN/images/background.png), center, no-repeat;
+    background: url(images/background.png), center, no-repeat;
     background-size: cover;
     z-index: -1;
     width: 100%;
