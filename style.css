@@ -116,14 +116,6 @@ h1 {
     font-size: 88px;
 }
 
-.block {
-    position: relative;
-    display: flex;
-    flex-direction:column;
-    max-width: 632px;
-    gap: 27px;
-}
-
 section {
     position: relative;
     display: grid;
@@ -135,6 +127,14 @@ section {
     margin-bottom: 200px;
     justify-items: end;
     margin-left: 100px;
+}
+
+.block {
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    max-width: 632px;
+    gap: 27px;
 }
 
 .sectionImageOne {
