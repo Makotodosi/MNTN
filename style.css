@@ -24,10 +24,15 @@ a {
     color: #fff;
 }
 
+img {
+    max-width: 100%;
+}
+
 /*intro*/
 .intro {
-    background: url(images/background.png), center, no-repeat;
+    background: url(images/background.png), no-repeat;
     background-size: cover;
+    background-position: center center;
     z-index: -1;
     width: 100%;
     height: 100vh;
@@ -82,7 +87,17 @@ a {
     flex-direction: column;
     align-items: center;
 }
+/*возможно можно убрать эти приписки */
+.main {
+    margin: 0 auto;
+}
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*до сюда*/
 .titleWithLine {
     position: relative;
     display: inline-block;
@@ -116,6 +131,7 @@ h1 {
     font-size: 88px;
 }
 
+/*
 section {
     position: relative;
     display: grid;
@@ -127,6 +143,11 @@ section {
     margin-bottom: 200px;
     justify-items: end;
     margin-left: 100px;
+}*/
+
+section {
+    margin-bottom: 200px;
+    margin-left: 100px;
 }
 
 .block {
@@ -137,6 +158,14 @@ section {
     gap: 27px;
 }
 
+.sectionImageOne img {
+    margin-left: 114px;
+}
+
+.sectionImageTwo img {
+    margin-left: 114px;
+}
+/*
 .sectionImageOne {
     display: grid;
     grid-column-start: 2;
@@ -145,7 +174,8 @@ section {
     grid-row-end: 2;
     margin-left: 144px;
 }
-
+*/
+/*
 .sectionImageTwo {
     display: grid;
     grid-column-start: 1;
@@ -154,7 +184,7 @@ section {
     grid-row-end: 2;
     margin-right: 264px;
 }
-
+*/
 .count {
     position: absolute;
     font-weight: 700;
@@ -246,4 +276,16 @@ h4 {
 .company {
     padding-top: 122px;
     opacity: 0.5;
+}
+
+@media (max-width: 1199px) {
+    .sectionImageOne img {
+        margin: 0;
+        margin-top: 114px;
+    }
+    
+    .sectionImageTwo img {
+        margin: 0;
+        margin-top: 114px;
+    }
 }
